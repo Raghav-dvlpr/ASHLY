@@ -1,0 +1,32 @@
+{
+  "name": "nft-marketplace-smartcontracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/accubitstech/nft-marketplace-smartcontracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/accubitstech/nft-marketplace-smartcontracts/issues"
+  },
+  "homepage": "https://gitlab.com/accubitstech/nft-marketplace-smartcontracts#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@openzeppelin/contracts-upgradeable": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "truffle": "^5.3.4",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.7.0"
+  }
+}
